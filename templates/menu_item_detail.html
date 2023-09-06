@@ -1,7 +1,8 @@
-<!DOCTYPE html>
-<html lang="en">
-    <head>
-        
-    </head>
+{% extends 'base.html' %}
+{% block content %}
 
-</html>
+        <h1>{{item.meal}}</h1>
+        <p>{{item.description}}</p>
+        <p>{{item.price}}</p>
+
+{% endblock content %}
